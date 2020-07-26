@@ -1,24 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {Grid} from '@material-ui/core';
+import styles from './App.css';
+import { Component1 } from './components/component1/Component1';
+import { Component2 } from './components/Component2/Component2';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+
+      <div>
+        <Grid container>
+          <Grid item xs={12}>
+            <Component1 className={styles.container1} />
+            <Component2 className={styles.container2} />
+          </Grid>
+        </Grid>
+      </div>
+
     </div>
   );
 }

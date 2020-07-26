@@ -1,0 +1,15 @@
+.container {
+    background: linear-gradient(45deg, #7e5eff, #cf5eff);
+    width: 100%;
+}
+
+.container2 {
+    margin: 0 2%;
+    display: flex;
+    flex-direction: row;
+}
+
+.brain {
+    position: absolute;
+    width: 40%;
+}
