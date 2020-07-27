@@ -14,9 +14,11 @@ function App() {
         <Grid container>
           <Grid item xs={12}>
             <Component1 className={styles.container1} />
-            <Component2 className={styles.container2} />
-            <Component3 className={styles.container3} />
-            <Component4 className={styles.container4} />
+            <div className={styles.design}>
+              <Component2 className={styles.container2} />
+              <Component3 className={styles.container3} />
+              <Component4 className={styles.container4} />
+            </div>
           </Grid>
         </Grid>
       </div>

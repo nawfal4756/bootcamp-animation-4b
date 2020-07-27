@@ -1,5 +1,6 @@
 .container {
     width: 100%;
+    background-color: #dfff5e;
 }
 
 .container2 {
@@ -9,6 +10,6 @@
 }
 
 .image {
-    width: 75%;
+    width: 85%;
     margin: 5% 25%;
 }
